@@ -27,8 +27,16 @@
     # git add .
         # file stages
         # file move working to staging area
+        # types
+            # git add -A
+                # stages all files in your folder
+            # git add .
+                # stages new and modified, without deleted
+            # git add -u
+                # stages deleted and modefied, without new
     # git commit -m "Version 1"
         # what file change this give
+        # give comment
     # git config --global user.email "vanjarapankaj.140180107059@gmail.com"
         # if commit not run so, give this
     # git log
@@ -49,4 +57,17 @@
         # pull all data in git
     # git diff file_name
         # give data of you modefied this file
-    
+    # git diff --staged file_name
+        # give changes info after file is staged
+    # git checkout file_name
+        # file return previous stage
+    # git clone file_path_in_git_hub
+        # copy other developers files
+    # git brach
+        # give branches name
+    # git branch name
+        # made new branch 
+        # this is copy of your code
+    # git checkout branch_name
+        # switch master branch to your branch
+# ignoring git
