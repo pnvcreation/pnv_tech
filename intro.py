@@ -33,4 +33,20 @@
         # if commit not run so, give this
     # git log
         # changes all the developers
+    # git remote add origin git@github.com:pnvcreation/pnv_tech.git
+        # used for github reporetry
+    # ssh-keygen -t rsa -b 4096 -C "vanjarapankaj.140180107059@gmail.com"
+        # changed ssh key
+    # eval $(ssh-agent -s)
+        # run
+    # ssh-add ~/.ssh/id_rsa
+        # ssh key add in github
+    # clip < ~/.ssh/id_rsa.pub
+        # copy ssh key
+    # git push -u origin master
+        # data push in github
+    # git pull origin master
+        # pull all data in git
+    # git diff file_name
+        # give data of you modefied this file
     
